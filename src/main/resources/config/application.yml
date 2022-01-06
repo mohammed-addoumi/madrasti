@@ -10,3 +10,19 @@ spring:
   sql:
     init:
       mode: never
+
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: info,health,metrics,loggers
+  endpoint:
+    health:
+      enabled: true
+    info:
+      enabled: true
+    metrics:
+      enabled: true
+    loggers:
+      enabled: true
