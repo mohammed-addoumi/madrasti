@@ -7,9 +7,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/madrasti
     username: postgres
     password: simoQB24188
-  sql:
-    init:
-      mode: never
 
 management:
   endpoints:
